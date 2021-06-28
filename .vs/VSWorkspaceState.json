@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\App_Site-Touristique",
+    "\\App_Site-Touristique\\Controllers",
+    "\\App_Site-Touristique\\Models",
+    "\\App_Site-Touristique\\Views",
+    "\\App_Site-Touristique\\Views\\Activity"
+  ],
+  "SelectedNode": "\\App_Site-Touristique\\Views\\Activity\\DeleteActivity.cshtml",
+  "PreviewInSolutionExplorer": false
+}

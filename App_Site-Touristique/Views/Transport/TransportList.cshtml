@@ -1,0 +1,39 @@
+﻿@model IEnumerable<App_Site_Touristique.Models.Transport>
+
+@{
+    ViewBag.Title = "TransportList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>TransportList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "TransportInfo")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ligne)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ligne)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditTransport", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "DeleteTransport", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

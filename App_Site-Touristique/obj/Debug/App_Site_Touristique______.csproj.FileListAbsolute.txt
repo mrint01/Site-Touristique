@@ -1,0 +1,8 @@
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site_Touristique.Migrations.Entities.resources
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site_Touristique.Migrations.addadd.resources
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site_Touristique.Migrations.ajouterUneAcivity.resources
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site_Touristique______.csproj.GenerateResource.cache
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site_Touristique______.csproj.CoreCompileInputs.cache
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site-Touristique.dll
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site-Touristique.pdb
+C:\Users\benab\source\repos\App_Site-Touristique\App_Site-Touristique\obj\Debug\App_Site_Touristique______.csprojAssemblyReference.cache

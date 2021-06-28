@@ -1,0 +1,45 @@
+﻿@model IEnumerable<App_Site_Touristique.Models.Restaurant>
+
+@{
+    ViewBag.Title = "RestaurantList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>RestaurantList</h2>
+
+<p>
+    @Html.ActionLink("Create New", "RestaurantInfo")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumTel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.leType)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumTel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.leType)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditRestaurant", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "DeleteRestaurant", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>
